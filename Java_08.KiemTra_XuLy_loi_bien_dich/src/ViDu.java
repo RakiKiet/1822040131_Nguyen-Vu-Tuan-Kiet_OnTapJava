@@ -1,3 +1,5 @@
+//Cách kiểm tra và xử lý lỗi biên dịch
+
 //public class Vidu | sinh ra loi la "Lop Vidu la public, nen duoc khai bao trong file co ten ViDu.java"
 public class ViDu {
     public static void main(String[] args) {

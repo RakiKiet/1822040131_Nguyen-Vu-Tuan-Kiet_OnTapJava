@@ -1,3 +1,4 @@
+//Cách khai báo biến trong Java
 public class ViDu {
     public static void main(String[] args) {
         String thongBao = "Xin chao";

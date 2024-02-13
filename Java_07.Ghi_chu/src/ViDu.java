@@ -1,3 +1,4 @@
+//Cách ghi chú trong Java
 /**
  * author windows11
  */
