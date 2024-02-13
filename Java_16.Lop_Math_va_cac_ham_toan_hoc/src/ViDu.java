@@ -1,3 +1,4 @@
+//Lớp Math và các hàm toán học trong Java
 import java.util.Scanner;
 public class ViDu {
     public static void main(String[] args) {

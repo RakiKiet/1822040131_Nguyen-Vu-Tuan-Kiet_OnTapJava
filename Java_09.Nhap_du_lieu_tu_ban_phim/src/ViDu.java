@@ -1,3 +1,4 @@
+//Cách nhập dữ liệu từ bàn phím
 import java.util.Scanner;
 
 public class ViDu {
