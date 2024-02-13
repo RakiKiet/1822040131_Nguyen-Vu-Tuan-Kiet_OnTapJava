@@ -1,3 +1,4 @@
+//Giới thiệu Java
 public class ViDuCoBan {
     //Cách chạy "Hello World!" và chạy 123
     public static void main(String[] args) {
