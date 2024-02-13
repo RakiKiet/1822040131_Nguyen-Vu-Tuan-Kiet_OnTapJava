@@ -4,18 +4,18 @@ import java.util.Scanner;
 public class ViDu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap vao ho va ten: ");
+        System.out.print("Nhập vào họ và tên: ");
         String hoVaTen = sc.nextLine();
 
-        System.out.print("Nhap ma sinh vien: ");
+        System.out.print("Nhập mã sinh viên: ");
         long maSinhVien = sc.nextLong();
 
-        System.out.print("Nhap diem thi: ");
+        System.out.print("Nhập điểm thi: ");
         float diemThi = sc.nextFloat();
 
-        System.out.println("Ho va Ten: "+hoVaTen);
-        System.out.println("Ma sinh vien: "+maSinhVien);
-        System.out.println("Diem thi: "+diemThi);
+        System.out.println("Họ và Tên: "+hoVaTen);
+        System.out.println("Mã sinh viên: "+maSinhVien);
+        System.out.println("Điểm thi: "+diemThi);
     }
 }
 
