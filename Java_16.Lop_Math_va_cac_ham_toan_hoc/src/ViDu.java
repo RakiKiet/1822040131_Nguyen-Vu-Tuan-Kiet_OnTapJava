@@ -4,29 +4,29 @@ public class ViDu {
     public static void main(String[] args) {
         double a, b;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap gia tri a: ");
+        System.out.print("Nhập giá trị a: ");
         a = sc.nextDouble();
-        System.out.print("Nhap gia tri b: ");
+        System.out.print("Nhập giá trị b: ");
         b = sc.nextDouble();
 
-        //Gia tri tuyet doi
+        //Giá trị tuyệt đối
         System.out.println("|a| = " + Math.abs(a));
         System.out.println("|b| = " + Math.abs(b));
-        System.out.println(""); //Hoac System.out.print("\n");
-        //Gia tri min
-        System.out.println("Gia tri nho nhat la: " + Math.min(a, b));
-        //Gia tri max
-        System.out.println("Gia tri lon nhat la: " + Math.max(a, b));
-        //Gia tri ceil
-        System.out.println("Ceil cua a la: " + Math.ceil(a));
-        System.out.println("Ceil cua b la: " + Math.ceil(b));
-        //Gia tri floor
-        System.out.println("Floor cua a la: " + Math.floor(a));
-        System.out.println("Floor cua b la: " + Math.floor(b));
-        //Can bac hai
-        System.out.println("Can bac hai cua a la: " + Math.sqrt(a));
-        System.out.println("Can bac hai cua b la: " + Math.sqrt(b));
-        //Mu
-        System.out.println("a mu b bang " + Math.pow(a, b));
+        System.out.println(""); //Hoặc System.out.print("\n");
+        //Giá trị min
+        System.out.println("Giá trị nhỏ nhất là: " + Math.min(a, b));
+        //Giá trị max
+        System.out.println("Giá trị lớn nhất là: " + Math.max(a, b));
+        //Giá trị ceil
+        System.out.println("Ceil của a là: " + Math.ceil(a));
+        System.out.println("Ceil của b là: " + Math.ceil(b));
+        //Giá trị floor
+        System.out.println("Floor của a la: " + Math.floor(a));
+        System.out.println("Floor của b la: " + Math.floor(b));
+        //Căn bậc hai
+        System.out.println("Căn bậc hai của a là: " + Math.sqrt(a));
+        System.out.println("Căn bậc hai của b là: " + Math.sqrt(b));
+        //Mũ
+        System.out.println("a mũ b bằng " + Math.pow(a, b));
     }
 }
